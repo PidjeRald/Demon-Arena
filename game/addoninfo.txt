@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+    maps "map_name"
+    "TeamCount" "2"
+    "IsPlayable" "1"
+    "HeroGuidesSupported" "1"
+    "map_name"
+    {
+        "MaxPlayers" "10"
+    }
+}
