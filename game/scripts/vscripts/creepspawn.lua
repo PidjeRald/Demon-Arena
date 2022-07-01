@@ -9,7 +9,7 @@ function jungle1()
         if count == 5 then
             return Timers:RemoveTimer()
         else
-            return 60
+            return 5
         end
     end)
   local count = 0

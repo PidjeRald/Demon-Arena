@@ -1,6 +1,6 @@
 function tp1(event)
   if event.activator:IsHero() then 
-    Timers:CreateTimer(3.3,function ()
+    Timers:CreateTimer(function ()
         local ent = Entities:FindByName( nil, "pnt1") --строка ищет как раз таки нашу точку pnt1
         local point = ent:GetAbsOrigin() --эта строка выясняет где находится pnt1 и получает её координаты
         event.activator:SetAbsOrigin(point) -- получили координаты, теперь меняем место героя на pnt1
